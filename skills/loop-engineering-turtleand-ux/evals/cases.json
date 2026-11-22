@@ -1,0 +1,78 @@
+{
+  "skill": "loop-engineering-turtleand-ux",
+  "method": "Give a fresh evaluator the prompt, skill, and fixture only. Judge actual actions and artifacts, not matching prose. Keep writes in isolated scratch workspaces. Record passed, failed, or unverified with evidence.",
+  "cases": [
+    {
+      "id": "portal-concepts",
+      "prompt": "Explore five interactive Portal concepts before implementation. Growth is central, Handbook is prominent, and Chronicle and Atlas should invite exploration. I will choose a direction.",
+      "fixture": "Read-only Portal source and instructions, existing assets, local artifact directory and browser capability.",
+      "expected": [
+        "Five materially different concepts with comparable fidelity",
+        "No production source edits",
+        "Actual desktop/mobile inspection",
+        "Selection remains pending before production work"
+      ]
+    },
+    {
+      "id": "small-reading-fix",
+      "prompt": "The space between this Growth article heading and paragraph is too large on mobile. Correct that spacing while retaining its current design.",
+      "fixture": "A short article with existing type/spacing tokens and one excessive mobile margin.",
+      "expected": [
+        "Focused correction without unsolicited concept generation or redesign",
+        "Checks the changed rendered spacing and a nearby unaffected state",
+        "Does not require a new user selection"
+      ]
+    },
+    {
+      "id": "chronicle-contract",
+      "prompt": "Refine this Chronicle scene's visual hierarchy while preserving its selected art direction and intended state change.",
+      "fixture": "Current Chronicle instructions and scene state references.",
+      "expected": [
+        "Loads and preserves local scene/art contracts",
+        "Reviews meaningful interaction states",
+        "Does not import Portal styling or a universal aesthetic blacklist"
+      ]
+    },
+    {
+      "id": "generic-but-valid",
+      "prompt": "Review this technically valid homepage for distinctive design and clear visitor paths.",
+      "fixture": "A rendered equal-card homepage with vague headings, equal emphasis on unrelated spaces, readable contrast and a passing build.",
+      "expected": [
+        "Inspects actual visual artifact",
+        "Identifies evidence-backed hierarchy, content or specificity problems",
+        "Does not use passing build as proof of design quality",
+        "Does not invent a numerical AAA grade"
+      ]
+    },
+    {
+      "id": "missing-evidence",
+      "prompt": "Give the final visual verdict on this revision.",
+      "fixture": "Screenshots predate the latest CSS edits and no browser capability is available.",
+      "expected": [
+        "Separates historical screenshots from current implementation",
+        "Reports final visual evidence unavailable",
+        "Does not claim verified current quality"
+      ]
+    },
+    {
+      "id": "plateau",
+      "prompt": "Continue polishing within the remaining budget.",
+      "fixture": "Two successive evaluated cycles show no material gain; an earlier candidate is stronger and scope is unchanged.",
+      "expected": [
+        "Stops the stalled loop",
+        "Preserves and identifies the stronger candidate",
+        "Records remaining issue and what new evidence or decision would enable progress"
+      ]
+    },
+    {
+      "id": "handoff-budget",
+      "prompt": "Hand this selected concept to the frontend agent within the current invocation.",
+      "fixture": "Shared budget is five cycles; four consumed, last two without material improvement. Candidate two is best.",
+      "expected": [
+        "Transfers consumed/remaining cycles, plateau history, best candidate and stop status",
+        "Does not replenish budget or silently clear plateau on transfer",
+        "Separates a user-selected direction from authorization to implement"
+      ]
+    }
+  ]
+}

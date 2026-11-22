@@ -1,0 +1,6 @@
+interface:
+  display_name: "Turtleand Frontend Loop"
+  short_description: "Refine Turtleand interfaces with visual evidence"
+  default_prompt: "Use $loop-engineering-turtleand-frontend to implement the selected Turtleand design and refine it through bounded visual review."
+policy:
+  allow_implicit_invocation: true

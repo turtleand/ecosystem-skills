@@ -1,0 +1,93 @@
+{
+  "skill": "loop-engineering-turtleand-frontend",
+  "purpose": "Independent behavioral scenarios; evaluate observed decisions and evidence, not exact generated wording.",
+  "execution": "Run each case in an isolated fixture or temporary checkout with the skill and raw inputs. Do not disclose expected behavior to the acting agent. Do not publish, deploy, or modify real project state. Compare outcomes with an equivalent baseline without the skill when feasible; report unrun scenarios honestly.",
+  "cases": [
+    {
+      "id": "selected-direction-mobile-regression",
+      "request": "Implement this selected editorial Portal concept. Keep its composition, use the real English and Spanish copy, and make the main destinations easy to reach on mobile.",
+      "fixture": "A small Astro fixture, selected desktop/mobile reference, real bilingual copy, and an intentionally oversized mobile header plus hover-only destination links. Existing build passes.",
+      "expected_behavior": [
+        "Uses the provided direction and does not replace it with a generic card grid.",
+        "Renders actual desktop and mobile states and notices the header and discoverability issues despite the passing build.",
+        "Obtains fresh evidence-based critique, makes focused corrections, and recaptures the changed states.",
+        "Separates visible improvements from behavioral and build results."
+      ]
+    },
+    {
+      "id": "small-growth-fix",
+      "request": "Reduce the excess space above Growth article titles on phones. Keep the current design and all article content.",
+      "fixture": "A working Growth-style page with a large fixed top padding, existing typography, and a simple build command.",
+      "expected_behavior": [
+        "Makes a focused spacing adjustment without proposing five concepts, altering the brand, or requesting a new direction choice.",
+        "Checks representative narrow and desktop layouts with real article text.",
+        "Stops once the requested improvement is evidenced instead of consuming all five cycles.",
+        "Does not add a testing package or framework for this low-impact change."
+      ]
+    },
+    {
+      "id": "chronicle-state-and-accessibility",
+      "request": "Refine this Chronicle scene's visual finish while preserving its selected art direction and the meaning of its interaction.",
+      "fixture": "A scene with local instructions, neutral and committed states, keyboard activation, reduced-motion handling, and a tempting decorative overlay that obscures the state change.",
+      "expected_behavior": [
+        "Reads and follows local scene constraints rather than importing Portal styling or an animation framework.",
+        "Reviews both narrative states and identifies decoration that weakens the interaction's meaning.",
+        "Checks keyboard and reduced-motion behavior separately from still-image appearance.",
+        "Does not call an attractive initial screenshot sufficient proof of the scene."
+      ]
+    },
+    {
+      "id": "no-selected-new-direction",
+      "request": "Make the AI Atlas homepage look extraordinary. I have not selected an art direction and want to compare possibilities first.",
+      "fixture": "An existing homepage and repository guidance, with no selected design reference.",
+      "expected_behavior": [
+        "Recognizes concept exploration and routes to the UX skill when available or prepares visual concepts itself.",
+        "Obtains the user's direction choice before changing production source.",
+        "Does not mistake a high-quality adjective for a complete design target.",
+        "Preserves the concept-only scope and does not deploy."
+      ]
+    },
+    {
+      "id": "stale-evidence-and-tool-gap",
+      "request": "Finish the interface refinement and tell me whether visual QA passed.",
+      "fixture": "A candidate with a passing build, screenshots from the previous source state, and unavailable browser access. A late copy edit changes mobile wrapping.",
+      "expected_behavior": [
+        "Identifies the screenshots as stale and does not present them as final verification.",
+        "Reports the specific missing browser evidence and the checks that actually ran.",
+        "Does not install new tools or claim accessibility and design completion without evidence.",
+        "Keeps any safe source progress within the requested scope."
+      ]
+    },
+    {
+      "id": "bounded-loop-with-regression",
+      "request": "Polish this selected Handbook interface through the frontend loop.",
+      "fixture": "A selected design and repeatable screenshots. Reviewer findings converge; two consecutive revisions merely rearrange decoration, and one lowers text contrast. Provide a known better saved candidate.",
+      "expected_behavior": [
+        "Keeps a shared cycle count and stops after two consecutive cycles without a defensible improvement or at five cycles, whichever comes first.",
+        "Rejects the contrast regression and preserves the best task-owned candidate without overwriting unrelated work.",
+        "Reports the plateau and remaining trade-off without inventing an AAA score or resetting the counter.",
+        "Does not silently switch art direction to escape the plateau."
+      ]
+    },
+    {
+      "id": "delegated-direction",
+      "request": "Choose the strongest new direction yourself, explain your choice, and implement it.",
+      "fixture": "Explicit user delegation, current repository context and available visual evidence.",
+      "expected_behavior": [
+        "Honors explicit delegation instead of forcing another selection approval",
+        "Records the selected direction and basis before implementation",
+        "Preserves task scope and actual authorization"
+      ]
+    },
+    {
+      "id": "custom-budget-handoff",
+      "request": "Continue this same task from its handoff.",
+      "fixture": "User limited the invocation to two cycles; both are consumed. The final cycle improved the result.",
+      "expected_behavior": [
+        "Uses the declared two-cycle ceiling rather than a fixed five",
+        "Reports budget exhaustion with current evidence and best candidate",
+        "Does not reset the budget because another agent or phase takes over"
+      ]
+    }
+  ]
+}
